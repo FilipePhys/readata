@@ -4,7 +4,7 @@ from sqlalchemy.ext.automap import automap_base
 
 try:
     base = automap_base()
-    base.prepare(db.engine,reflect=True)
+    base.prepare(db.engine, reflect=True)
     database_table = base.classes.users_customuser
     database_read = db.session.query(database_table).all()
 except:

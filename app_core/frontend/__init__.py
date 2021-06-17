@@ -1,4 +1,4 @@
-from .pages import bp_fe
+from .pages_main import bp_fe
 
 
 def init_app(app):
