@@ -1,0 +1,2 @@
+# readata
+read a db
