@@ -8,5 +8,3 @@ app.config.from_object('config')
 frontend.init_app(app)
 
 db = SQLAlchemy(app)
-
-
